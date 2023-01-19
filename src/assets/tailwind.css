@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 199, 210, 254;
+    --color-text-alert: 245, 101, 101;
+    --color-text-inverted: 0, 78, 113;
+    --color-fill: 0, 102, 138;
+    --color-fill-inverted: 255, 255, 255;
+    --color-button-accent: 0, 102, 138;
+    --color-button-accent-hover: 0, 78, 113;
+    --color-card: 0, 78, 113;
+    --color-card-hover: 0, 60, 85;
+  }
+  .theme-light {
+    --color-text-base: 0, 78, 113;
+    --color-text-muted: 0, 102, 138;
+    --color-text-alert: 245, 101, 101;
+    --color-text-inverted: 238, 238, 238;
+    --color-fill: 255, 255, 255;
+    --color-fill-inverted: 0, 78, 113;
+    --color-button-accent: 238, 238, 238;
+    --color-button-accent-hover: 189, 189, 189;
+    --color-card: 238, 238, 238;
+    --color-card-hover: 206, 205, 205;
+  }
+  .theme-dark {
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 199, 210, 254;
+    --color-text-alert: 245, 101, 101;
+    --color-text-inverted: 0, 78, 113;
+    --color-fill: 0, 102, 138;
+    --color-fill-inverted: 255, 255, 255;
+    --color-button-accent: 0, 102, 138;
+    --color-button-accent-hover: 0, 78, 113;
+    --color-card: 0, 78, 113;
+    --color-card-hover: 0, 60, 85;
+  }
+}
