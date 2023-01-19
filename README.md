@@ -116,7 +116,7 @@ Project Link: [https://github.com/fullasc/weather_app](https://github.com/fullas
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/github/license/fullasc/weather_app.svg?style=for-the-badge
-[license-url]: https://github.com/fullasc/weather_app/blob/master/LICENSE.txt
+[license-url]: https://github.com/fullasc/weather_app/blob/main/LICENCE.txt
 [product-screenshot]: public/WeatherScreenshot.png
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
