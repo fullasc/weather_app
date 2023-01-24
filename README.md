@@ -8,8 +8,12 @@
 
 <h3 align="center">Local Weather</h3>
 
-  <p align="center">
-    Test project to learn vuejs 3
+<p align="center">Simple weather website with dark/light theme saved in your local storage
+
+<a href="https://fullascweather.netlify.app/">View Demo</a>
+
+</p>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -42,7 +46,7 @@
     <img src="public/WeatherScreenshot.png" alt="Logo" width="830" height="396">
   </a>
 
-I wanted to have an introduction to VueJS, so I followed a youtube tutorial from [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ).
+In order to learn the basics of vuejs, I followed the youtube tutorial from [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ).
 I also added a light/dark theme with the possibility to switch between theme.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -62,12 +66,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+I used pnpm for packets management, but you can use which one you prefer (npm, yarn, etc.)
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- [pnpm installation documentation](https://pnpm.io/fr/installation)
 
 ### Installation
 
@@ -82,7 +83,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Install NPM packages
    ```sh
-   npm install
+   pnpm install
    ```
 4. Rename `.env` file to `env.local` and add your API keys
    ```.env
@@ -91,7 +92,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 5. Run the project
    ```sh
-   npm run dev
+   pnpm dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
